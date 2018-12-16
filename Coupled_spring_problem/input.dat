@@ -1,7 +1,9 @@
 1.0,1.0 #masses
-0.4,1.808 #force constants
--0.6,3.001 #initial positions
-0.5,5.9 #initial velocities
-0.0,0.0 #damping parameters
--0.166666667,-0.1 #non-linear parameters
+0.4,1.0 #spring constants
+0.7,0.1 #initial positions
+0.0,0.0 #initial velocities
+0.1,0.2 #damping parameters
+0.166666667,0.1 #non-linear parameters
+0.333333333,0.2 #External force amplitudes
+1.0,0.6 #External force frequencies
 200,0.1 #final time,time step
