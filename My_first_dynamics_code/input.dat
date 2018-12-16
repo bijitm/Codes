@@ -1,0 +1,4 @@
+1.0 #mass
+1.0 #force constant
+0.1 #time step
+1.0,0.0 #initial position, velocity
