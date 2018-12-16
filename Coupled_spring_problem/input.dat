@@ -1,6 +1,7 @@
 1.0,1.0 #masses
 0.4,1.808 #force constants
-1.0,2.0 #initial positions
-0.5,0.5 #initial velocities
-0.1,0.2 #damping parameters
-50,0.1 #final time,time step
+-0.6,3.001 #initial positions
+0.5,5.9 #initial velocities
+0.0,0.0 #damping parameters
+-0.166666667,-0.1 #non-linear parameters
+200,0.1 #final time,time step
