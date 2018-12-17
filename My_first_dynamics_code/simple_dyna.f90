@@ -11,14 +11,13 @@
                 open(1,file="input.dat",status="old")
                 open(10,file="output.dat",status="unknown")
 
-                t_init=0.0
-                t_final=4.0*(4.0*atan(1.0)*sqrt(m/k))
-                
                 read(1,*)m
                 read(1,*)k
                 read(1,*)dt
                 read(1,*)x0,p0
 
+                t_init=0.0
+                t_final=4.0*(4.0*atan(1.0)*sqrt(m/k))
                 p0=m*p0
 
                 nst=int((t_final-t_init)/dt)
